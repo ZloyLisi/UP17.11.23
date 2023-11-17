@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".KomandsFragment"
+    android:background="@drawable/fon_3">
+
+    <ScrollView
+        android:id="@+id/scrollView4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/car_1"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="@string/car_1_t"
+                android:textSize="18sp">
+
+            </TextView>
+
+            <ImageView
+                android:id="@+id/imageView11"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/nissan_s15" />
+
+
+
+
+
+
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/car_2"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="185dp"
+                android:text="@string/car_2_t"
+                android:textSize="18sp">
+
+            </TextView>
+            <ImageView
+                android:id="@+id/imageView13"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/supra_22" />
+
+
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/car_3"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="95dp"
+                android:text="@string/car_3_t"
+                android:textSize="18sp">
+
+            </TextView>
+            <ImageView
+
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/migel_car" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:text="@string/car_4"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="95dp"
+                android:text="@string/car_4_t"
+                android:textSize="18sp">
+
+            </TextView>
+            <ImageView
+
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/ermohin_car" />
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/car_5"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="95dp"
+                android:text="@string/car_5_t"
+                android:textSize="18sp">
+
+            </TextView>
+            <ImageView
+
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/charl" />
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/car_5"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="95dp"
+                android:text="@string/car_5_t"
+                android:textSize="18sp">
+
+            </TextView>
+            <ImageView
+
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/abramow_car" />
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/car_6"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="95dp"
+                android:text="@string/car_6_t"
+                android:textSize="18sp">
+
+            </TextView>
+            <ImageView
+
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/kozlow_car" />
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/car_7"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="95dp"
+                android:text="@string/car_7_t"
+                android:textSize="18sp">
+
+            </TextView>
+            <ImageView
+
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/shikow_car" />
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/car_8"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="95dp"
+                android:text="@string/car_8_t"
+                android:textSize="18sp">
+
+            </TextView>
+            <ImageView
+
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/gorkovenko_car" />
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/car_9"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="95dp"
+                android:text="@string/car_9_t"
+                android:textSize="18sp">
+
+            </TextView>
+            <ImageView
+
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/astapov_car" />
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/car_10"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="95dp"
+                android:text="@string/car_10_t"
+                android:textSize="18sp">
+
+            </TextView>
+            <ImageView
+
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/gusew_car" />
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/car_11"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="95dp"
+                android:text="@string/car_11_t"
+                android:textSize="18sp">
+
+            </TextView>
+            <ImageView
+
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/sorokopud_car" />
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/car_12"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="@string/car_12_t"
+                android:textSize="18sp">
+
+            </TextView>
+
+            <ImageView
+
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/zar_car2" />
+
+
+
+            </LinearLayout>
+
+    </LinearLayout>
+    </ScrollView>
+</FrameLayout>
